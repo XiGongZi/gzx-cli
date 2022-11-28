@@ -10,7 +10,7 @@
     "模板"
   ],
   "bin": {
-    "rf-cli": "./bin/index.js"
+    "gzx-cli": "./bin/index.js"
   },
   "repository": {
     "type": "git",
