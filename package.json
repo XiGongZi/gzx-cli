@@ -1,0 +1,37 @@
+{
+  "name": "gzx-cli",
+  "version": "1.1.4",
+  "description": "rf.js project scaffolding tools.",
+  "main": "index.js",
+  "author": {
+    "name": "maomincoding",
+    "email": "17864296568@163.com",
+    "url": "https://www.maomin.club"
+  },
+  "keywords": [
+    "cli",
+    "npm 模块模板",
+    "npm 模块",
+    "模板"
+  ],
+  "bin": {
+    "rf-cli": "./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/XiGongZi/gzx-cli.git"
+  },
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "commander": "^5.0.0",
+    "fs-extra": "^9.0.0",
+    "inquirer": "^7.1.0"
+  },
+  "devDependencies": {},
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
