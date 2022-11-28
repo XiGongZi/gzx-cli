@@ -1,6 +1,6 @@
 {
   "name": "gzx-cli",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "gzx-cli.js project scaffolding tools.",
   "main": "index.js",
   "keywords": [
