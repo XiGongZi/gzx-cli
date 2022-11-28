@@ -1,4 +1,4 @@
-# rf-cli
+# gzx-cli
 
 ### 概述
 
@@ -6,15 +6,14 @@
 
 ### 安装
 
-`$ npm i rf-cli -g`
+`$ npm i gzx-cli -g`
 
 ### 使用
 
-`$ rf-cli init [your project name]`
+`$ gzx-cli init [your project name]`
 
 ### 当前模板列表
 
 - js-module-template
 - html-js-template
 - html-ts-template
-- vue-pc-cli
