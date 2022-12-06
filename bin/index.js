@@ -53,6 +53,9 @@ commander
                 JSON.stringify(packageJson, null, 2),
                 "utf-8"
               );
+              exec(`git add -A && git commit -m "package modify"`, {
+                cwd: `./${projectName}`,
+              });
             }
             if (fs.existsSync(`./${projectName}/.git/config`)) {
               exec("git remote rm origin", { cwd: `./${projectName}` });
